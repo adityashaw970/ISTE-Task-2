@@ -1,0 +1,752 @@
+
+*{
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+.nav-bar{
+    position:absolute;
+    height:5rem;;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left:0px;
+    margin-right:0px;
+}
+.logo{
+    height: 3.5rem;
+    margin-left: 3rem;
+    border-radius:50%;
+}
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 3rem;
+}
+.home img{  
+    margin-right:0px;
+    margin-left:0px;
+    width:100%;
+    height: 100vh;
+}
+
+.splogo{
+    align-items: center;
+    justify-content: space-evenly;
+    display:flex;
+    gap:10px; 
+    overflow:hidden;
+}
+.splogo img{
+    height:100px;
+    width:130px;
+}
+.end-part{  
+    margin-top: 5rem;
+    height:20rem;
+    background-color: #001f48;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.copyright{
+    margin-top: 6rem;
+    margin-left:3rem;
+}
+.contact{
+    margin-top: 4rem;
+    margin-left:3rem;
+}
+.links{
+    margin-top: 4rem;
+    margin-left:3rem;
+}
+.follow{
+    margin-top: 4rem;
+    margin-right:5rem;
+}
+u{ 
+    text-decoration: none; 
+   border-bottom: 1px solid black;
+}
+u1{ 
+    text-decoration: none; 
+   border-bottom:3px solid rgb(11, 168, 230);
+}
+.location{
+    height:25px;
+}
+
+.clogo{
+    height:30px;
+    gap:1rem;
+}
+.msglogo{
+    height:22px;
+}
+.flogo{
+    height: 3.5rem;
+}
+.teacher{  
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+    display:flex;
+    gap:10rem; 
+}
+.teacher1{
+    background-color:lightskyblue;
+    height: 350px;
+    width: 350px;
+   
+}
+.teacher2{
+    background-color:lightskyblue;
+    height: 350px;
+    width: 350px;
+}
+
+.teacher1 img{ 
+    margin-top:3rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid blue;
+    
+}
+.teacher2 img{  
+    margin-top:3rem;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid blue;
+}
+
+
+.container{
+	display:flex;
+	justify-content:center;
+	text-align:center;
+	align-items:center;
+}
+.box{
+	width:30px;
+	height:100px;
+	margin:10px;
+	cursor:pointer;
+	transition:width .8s ease-in;
+	border-radius:15px;
+	background-size:cover;
+	background-position:center;	
+}
+
+.hidden:checked + .box{
+	width:500px;
+	height:400px;
+}
+.hidden{
+	display:none;
+}
+.b1{
+	background-image:url('DSC07750.webp');
+}
+.b2{
+	background-image:url('DSC07720.webp');
+}
+.b3{
+	background-image:url("gallery3-min.png");
+}
+.b4{
+	background-image:url("gallery4-min.png");
+}
+.b5{
+	background-image:url("winter2-min.png");
+}
+.b6{
+	background-image:url("gallery\ home.jpg");
+}
+.b7{
+	background-image:url("cit1.png");
+}
+@media screen and (max-width:1080px)  {
+    .home img{  
+        width:147%;
+    }
+.nav-bar{
+    width: 147%;
+    height:150px;
+}
+.end-part{  
+    width:147%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin-left: 6rem;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:900px)  {
+    .home img{  
+        width:147%;
+    }
+.nav-bar{
+    width: 147%;
+    height:150px;
+}
+.end-part{  
+    width:147%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin-left: 4rem;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:800px)  {
+    .home img{  
+        width:146%;
+    }
+.nav-bar{
+    width: 146%;
+    height:150px;
+}
+.end-part{  
+    width:146%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;  
+    margin-left: 0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:750px)  {
+    .home img{  
+        width:149%;
+    }
+.nav-bar{
+    width: 149%;
+    height:150px;
+}
+.end-part{  
+    width:149%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:720px)  {
+    .home img{  
+        width:153%;
+    }
+.nav-bar{
+    width: 153%;
+    height:150px;
+}
+.end-part{  
+    width:153%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:700px)  {
+    .home img{  
+        width:154%;
+    }
+.nav-bar{
+    width: 154%;
+    height:150px;
+}
+.end-part{  
+    width:154%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+@media screen and (max-width:690px)  {
+    .home img{  
+        width:158%;
+    }
+.nav-bar{
+    width: 158%;
+    height:150px;
+}
+.end-part{  
+    width:158%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:680px)  {
+    .home img{  
+        width:160%;
+    }
+.nav-bar{
+    width: 160%;
+    height:150px;
+}
+.end-part{  
+    width:160%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:670px)  {
+    .home img{  
+        width:163%;
+    }
+.nav-bar{
+    width: 163%;
+    height:150px;
+}
+.end-part{  
+    width:163%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+
+@media screen and (max-width:660px)  {
+    .home img{  
+        width:166%;
+    }
+.nav-bar{
+    width: 166%;
+    height:150px;
+}
+.end-part{  
+    width:166%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+@media screen and (max-width:650px)  {
+    .home img{  
+        width:166%;
+    }
+.nav-bar{
+    width: 166%;
+    height:150px;
+}
+.end-part{  
+    width:166%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:640px)  {
+    .home img{  
+        width:168%;
+    }
+.nav-bar{
+    width: 168%;
+    height:150px;
+}
+.end-part{  
+    width:168%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+
+@media screen and (max-width:630px)  {
+    .home img{  
+        width:172%;
+    }
+.nav-bar{
+    width: 172%;
+    height:150px;
+}
+.end-part{  
+    width:172%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+
+@media screen and (max-width:620px)  {
+    .home img{  
+        width:175%;
+    }
+.nav-bar{
+    width: 175%;
+    height:150px;
+}
+.end-part{  
+    width:175%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+@media screen and (max-width:610px)  {
+    .home img{  
+        width:178%;
+    }
+.nav-bar{
+    width: 178%;
+    height:150px;
+}
+.end-part{  
+    width:178%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+@media screen and (max-width:600px)  {
+    .home img{  
+        width:166%;
+    }
+.nav-bar{
+    width: 166%;
+    height:150px;
+}
+.end-part{  
+    width:166%;
+}
+
+.heading{    
+	text-align:center;
+    margin-left: 18rem;
+}
+.about{    
+	text-align:center;
+    margin:0px;
+}
+.container{
+    margin-left:22rem;
+}
+.teacher{ 
+    margin-left:22rem; 
+}
+.splogo{
+    margin-left:14rem;
+
+}
+.splogo img{
+    height:70px;
+    width:100px;
+}
+}
+
+
+
+
